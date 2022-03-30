@@ -1,0 +1,40 @@
+@media screen and (max-width: 960px) {
+    
+    body{
+        padding: 1%;
+    }
+    header{
+        text-align: center;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    ul{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    article{
+        align-self: center;
+        transform: scale(0.8);
+    }
+
+    main{
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    h2{
+        text-align: center;
+        line-height: 35px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    
+    .contato{
+        text-align: center;
+        margin-right: 16%;
+    }
+}
